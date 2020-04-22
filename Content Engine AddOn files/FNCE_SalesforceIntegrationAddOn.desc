@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnDescriptor SourceSysVersion="5.5.3">
+  <ImportData>
+    <FileName>SalesforceIntegrationExtensions.xml</FileName>
+  </ImportData>
+  <DisplayName>Salesforce Integration Extensions</DisplayName>
+  <DescriptiveText>Defines classes and properties for supporting Salesforce integration.</DescriptiveText>
+  <Id>{94F85FBC-F57E-DBBE-933A-5EBCB7700000}</Id>
+  <AddOnType>OPTIONAL</AddOnType>
+  <PostImportScript>
+    <FileName>SalesforceIntegrationPostImportScript.js</FileName>
+  </PostImportScript>
+</AddOnDescriptor>

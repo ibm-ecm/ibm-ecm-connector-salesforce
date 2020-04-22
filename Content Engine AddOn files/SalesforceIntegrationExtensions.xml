@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<ObjectManifest>
+   <CmChangePreprocessorActions/>
+   <DocumentLifecycleActions/>
+   <DocumentLifecyclePolicies/>
+   <ChoiceLists/>
+   <PropertyTemplates>
+      <PropertyTemplateString>
+         <PropertyTemplateStringProperties>
+            <SymbolicName>SfSalesforceOrganizationId</SymbolicName>
+            <Name>Salesforce Organization Id</Name>
+            <Id>041f6a9e-e321-4054-8cfc-e39f5e6b8bc1</Id>
+            <Cardinality>0</Cardinality>
+            <IsValueRequired>1</IsValueRequired>
+            <MaximumLengthString>45</MaximumLengthString>
+            <Settability>2</Settability>
+            <DisplayNames>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Salesforce Organization Id</LocalizedText>
+               </LocalizedString>
+            </DisplayNames>
+            <DescriptiveTexts>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>The unique Id for the Salesforce Organization.</LocalizedText>
+               </LocalizedString>
+            </DescriptiveTexts>
+         </PropertyTemplateStringProperties>
+      </PropertyTemplateString>
+      <PropertyTemplateString>
+         <PropertyTemplateStringProperties>
+            <SymbolicName>SfSalesforceObjectUrl</SymbolicName>
+            <Name>Salesforce Object Url</Name>
+            <Id>35b4d3d8-992c-44dd-879d-639b7f4f992a</Id>
+            <Cardinality>0</Cardinality>
+            <IsValueRequired>1</IsValueRequired>
+            <MaximumLengthString>1000</MaximumLengthString>
+            <Settability>2</Settability>
+            <DisplayNames>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Salesforce Object Url</LocalizedText>
+               </LocalizedString>
+            </DisplayNames>
+            <DescriptiveTexts>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>The Url to link to the Salesforce object.</LocalizedText>
+               </LocalizedString>
+            </DescriptiveTexts>
+         </PropertyTemplateStringProperties>
+      </PropertyTemplateString>
+      <PropertyTemplateId>
+         <PropertyTemplateIdProperties>
+            <SymbolicName>SfVersionSeriesId</SymbolicName>
+            <Name>Version Series Id</Name>
+            <Id>e659ef10-a782-4efc-89d5-81182216a250</Id>
+            <Cardinality>0</Cardinality>
+            <IsValueRequired>1</IsValueRequired>
+            <Settability>2</Settability>
+            <DisplayNames>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Version Series Id</LocalizedText>
+               </LocalizedString>
+            </DisplayNames>
+            <DescriptiveTexts>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>The version series id of the ECM document that the Salesforce object relates to.</LocalizedText>
+               </LocalizedString>
+            </DescriptiveTexts>
+         </PropertyTemplateIdProperties>
+      </PropertyTemplateId>
+      <PropertyTemplateString>
+         <PropertyTemplateStringProperties>
+            <SymbolicName>SfSalesforceObjectId</SymbolicName>
+            <Name>Salesforce Object Id</Name>
+            <Id>8dbb9adb-4e49-4422-8ef7-9d1dae3b4f77</Id>
+            <Cardinality>0</Cardinality>
+            <IsValueRequired>1</IsValueRequired>
+            <MaximumLengthString>45</MaximumLengthString>
+            <Settability>2</Settability>
+            <DisplayNames>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Salesforce Object Id</LocalizedText>
+               </LocalizedString>
+            </DisplayNames>
+            <DescriptiveTexts>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>The Id of the Salesforce object that the ECM document relates to.</LocalizedText>
+               </LocalizedString>
+            </DescriptiveTexts>
+         </PropertyTemplateStringProperties>
+      </PropertyTemplateString>
+      <PropertyTemplateString>
+         <PropertyTemplateStringProperties>
+            <SymbolicName>SfSalesforceObjectType</SymbolicName>
+            <Name>Salesforce Object Type</Name>
+            <Id>07a0b378-eba5-47db-8f7c-b95944723892</Id>
+            <Cardinality>0</Cardinality>
+            <IsValueRequired>1</IsValueRequired>
+            <MaximumLengthString>64</MaximumLengthString>
+            <Settability>2</Settability>
+            <DisplayNames>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Salesforce Object Type</LocalizedText>
+               </LocalizedString>
+            </DisplayNames>
+            <DescriptiveTexts>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>The type of Salesforce object that the ECM Document is related to.</LocalizedText>
+               </LocalizedString>
+            </DescriptiveTexts>
+         </PropertyTemplateStringProperties>
+      </PropertyTemplateString>
+      <PropertyTemplateObject>
+         <PropertyTemplateObjectProperties>
+            <SymbolicName>SfDocument</SymbolicName>
+            <Name>Document</Name>
+            <Id>45039bd6-0635-4d0d-88e3-2daf5fb667f1</Id>
+            <Cardinality>0</Cardinality>
+            <IsValueRequired>1</IsValueRequired>
+            <SecurityProxyType>2</SecurityProxyType>
+            <Settability>0</Settability>
+            <DisplayNames>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Document</LocalizedText>
+               </LocalizedString>
+            </DisplayNames>
+            <DescriptiveTexts>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Association and security OVP for the Salesforce document.  Paired with SfSalesforceRelationships on the Document class, deletion of the document version object cascades deletion to all Salesforce relationships.  The relationship receives the security permissions of the document.</LocalizedText>
+               </LocalizedString>
+            </DescriptiveTexts>
+         </PropertyTemplateObjectProperties>
+      </PropertyTemplateObject>
+      <PropertyTemplateObject>
+         <PropertyTemplateObjectProperties>
+            <SymbolicName>SfSalesforceRelationships</SymbolicName>
+            <Name>Salesforce Relationships</Name>
+            <Id>d196e863-686f-48ed-86ac-db6d99c56fcd</Id>
+            <Cardinality>1</Cardinality>
+            <Settability>3</Settability>
+            <DisplayNames>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Salesforce Relationships</LocalizedText>
+               </LocalizedString>
+            </DisplayNames>
+            <DescriptiveTexts>
+               <LocalizedString>
+                  <LocaleName>en-us</LocaleName>
+                  <LocalizedText>Association property with reflective property set to SfDocument on the SfSalesforceRelationship class.  Deletion of the document version object will result in the deletion of all associated Salesforce relationships.</LocalizedText>
+               </LocalizedString>
+            </DescriptiveTexts>
+         </PropertyTemplateObjectProperties>
+      </PropertyTemplateObject>
+   </PropertyTemplates>
+   <ClassDefinitions>
+      <ReplicableClassDefinition>
+         <ReplicableClassDefinitionProperties>
+            <SymbolicName>SfSalesforceRelationship</SymbolicName>
+            <Name>Salesforce Relationship</Name>
+            <Id>a0dc4e6c-0000-cb1a-8416-3e7c27d1fc8d</Id>
+            <PropertyDefinitions>
+               <PropertyDefinitionId>
+                  <Name>Version Series Id</Name>
+                  <PrimaryId>e659ef10-a782-4efc-89d5-81182216a250</PrimaryId>
+                  <IsValueRequired>1</IsValueRequired>
+                  <Settability>2</Settability>
+               </PropertyDefinitionId>
+               <PropertyDefinitionString>
+                  <Name>Salesforce Object Type</Name>
+                  <PrimaryId>07a0b378-eba5-47db-8f7c-b95944723892</PrimaryId>
+                  <IsValueRequired>1</IsValueRequired>
+                  <Settability>2</Settability>
+               </PropertyDefinitionString>
+               <PropertyDefinitionString>
+                  <Name>Salesforce Organization Id</Name>
+                  <PrimaryId>041f6a9e-e321-4054-8cfc-e39f5e6b8bc1</PrimaryId>
+                  <IsValueRequired>1</IsValueRequired>
+                  <MaximumLengthString>45</MaximumLengthString>
+                  <Settability>2</Settability>
+               </PropertyDefinitionString>
+               <PropertyDefinitionString>
+                  <Name>Salesforce Object Url</Name>
+                  <PrimaryId>35b4d3d8-992c-44dd-879d-639b7f4f992a</PrimaryId>
+                  <IsValueRequired>1</IsValueRequired>
+                  <MaximumLengthString>1000</MaximumLengthString>
+                  <Settability>2</Settability>
+               </PropertyDefinitionString>
+               <PropertyDefinitionString>
+                  <Name>Salesforce Object Id</Name>
+                  <PrimaryId>8dbb9adb-4e49-4422-8ef7-9d1dae3b4f77</PrimaryId>
+                  <IsValueRequired>1</IsValueRequired>
+                  <MaximumLengthString>45</MaximumLengthString>
+                  <Settability>2</Settability>
+               </PropertyDefinitionString>
+               <PropertyDefinitionObject>
+                  <Name>Document</Name>
+                  <PrimaryId>45039bd6-0635-4d0d-88e3-2daf5fb667f1</PrimaryId>
+                  <IsValueRequired>1</IsValueRequired>
+                  <Settability>0</Settability>
+                  <ReflectivePropertyId>d196e863-686f-48ed-86ac-db6d99c56fcd</ReflectivePropertyId>
+                  <RequiredClassId>01a3a8c2-7aec-11d1-a31b-0020af9fbb1c</RequiredClassId>
+                  <SecurityProxyType>1</SecurityProxyType>
+               </PropertyDefinitionObject>
+            </PropertyDefinitions>
+            <SuperclassDefinition>
+               <ObjectRef>
+                  <ObjectId>e5994508-e538-45b2-a9b7-aa8c2f532cc9</ObjectId>
+                  <ClassId>f028e2d2-c18c-407d-a5a2-38c6d383f4bc</ClassId>
+               </ObjectRef>
+            </SuperclassDefinition>
+            <DisplayNames>
+               <LocalizedString>
+                  <LocaleName>en</LocaleName>
+                  <LocalizedText>Salesforce Relationship</LocalizedText>
+               </LocalizedString>
+            </DisplayNames>
+            <DescriptiveTexts>
+               <LocalizedString>
+                  <LocaleName>en</LocaleName>
+                  <LocalizedText>Represents the relationship between Salesforce objects and ECM documents.</LocalizedText>
+               </LocalizedString>
+            </DescriptiveTexts>
+         </ReplicableClassDefinitionProperties>
+      </ReplicableClassDefinition>
+      <DocumentClassDefinition>
+         <DocumentClassDefinitionProperties>
+            <SymbolicName>Document</SymbolicName>
+            <Name>Document</Name>
+            <Id>01a3a8c2-7aec-11d1-a31b-0020af9fbb1c</Id>
+            <PropertyDefinitions>
+               <PropertyDefinitionObject>
+                  <Name>Salesforce Relationships</Name>
+                  <PrimaryId>d196e863-686f-48ed-86ac-db6d99c56fcd</PrimaryId>
+                  <DeletionAction>2</DeletionAction>
+                  <ReflectivePropertyId>45039bd6-0635-4d0d-88e3-2daf5fb667f1</ReflectivePropertyId>
+                  <RequiredClassId>a0dc4e6c-0000-cb1a-8416-3e7c27d1fc8d</RequiredClassId>
+                  <SecurityProxyType>0</SecurityProxyType>
+                  <Settability>3</Settability>
+               </PropertyDefinitionObject>
+            </PropertyDefinitions>
+            <SuperclassDefinition/>
+         </DocumentClassDefinitionProperties>
+      </DocumentClassDefinition>
+   </ClassDefinitions>
+   <CustomObjects/>
+   <Folders/>
+   <Documents/>
+   <Annotations/>
+   <EventActions/>
+   <Subscriptions/>
+   <Others/>
+   <ReferentialContainmentRelationships/>
+   <DynamicReferentialContainmentRelationships/>
+</ObjectManifest>
