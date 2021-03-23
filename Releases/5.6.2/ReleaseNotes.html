@@ -50,30 +50,11 @@ ul ul ul { list-style-type: square;}
 <h2>FileNet Connector for Salesforce Release Notes</h2>
 <br>
 <div>
-   <h2>New Features</h2>
+   
    <p>This release includes the following updates:<br>
 Security Update to prevent Cross-Site Request Forgery (CSRF) Attack <br>
 IBM FileNet Salesforce Connector app has been updated to support Cross-Site Request Forgery (CSRF) changes implemented in the latest version of IBM FileNet Content Services GraphQL API. An anti-CSRF token has been implemented with the BM FileNet Content Services GraphQL API to prevent a CSRF attack.
 </p>
-   <ul>
-      <li>Connector can be used with any Salesforce object type, including custom objects:
-      <ul>
-         <li>The Document List widget can now be added to any Salesforce record page.</li>
-         <li>Add to record search has been expanded to all object types if the user types out the object type as a prefix.
-            <ul>
-               <li>For example “Patient: John Doe” will search within the Patient object type for John Doe.</li>
-               <li>If the user does not add a prefix, the search runs among the following 8 object types: Account, Cases, Contracts, Contacts, Opportunities, Product, Task, Order.</li>
-            </ul>
-         </li>
-      </ul>
-      </li>
-      <li>Option to save Salesforce metadata with the document in FileNet Content Manager:
-         <ul>
-            <li>Admin can configure which Salesforce metadata properties they want to save with the document when configuring the properties and document class.</li>
-            <li>Metadata properties are saved on new document upload and shown as read only in the upload dialog box.</li>
-         </ul>
-      </li>
-   </ul>
 </div>
 <h2>Compatibility</h2>
 <p>The 5.6.2 version of the IBM FileNet Salesforce Connector app depends on the following software components:</p>
