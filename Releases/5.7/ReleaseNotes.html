@@ -50,6 +50,35 @@ ul ul ul { list-style-type: square;}
 <h2>FileNet Connector for Salesforce Release Notes</h2>
 <br>
 <div>
+   <h2>New Features</h2>
+   <p>The 5.7.0 version of the IBM FileNet Salesforce Connector app introduced the following new features:</p>
+   <ul>
+      <li>Avoid the limit of 55 lookup fields in a Salesforce Object Query Language (SOQL) query:
+      <ul>
+         <li>Salesforce has implemented a limit on the maximum number of lookup fields that can be retrieved via a single query of 55.  However customers can create more than this number of lookup relationships.  To address this problem, we have changed our query logic to count the number of lookup fields in a query, and if it will exceed the limit of 55, then the query will be broken up into multiple queries, in order to retrieve all fields</li>
+      </ul>
+      </li>   
+      <li>Support Salesforce Connector widget on Salesforce Digital Experience Community Pages:
+      <ul>
+         <li>The IBM Document List widget can now be added to any Salesforce Digital Experience Community record pages.</li>
+      </ul>
+      </li>
+      <li>The ability to synchronize a Salesforce Picklist field:
+         <ul>
+            <li>The Salesforce Connector supports synchronizing fields from a Salesforce record, onto properties of a FileNet document that is created from an attachment to that Salesforce record.</li> 
+			<li>The Connector currently supports synchronizing Salesforce fields that are of type String, Integer, Picklist, or Date only.</li>
+         </ul>
+      </li>
+      <li>Support Choice field values up to 100 characters long:
+:
+         <ul>
+            <li>The previous version of the Salesforce Connector supports a Choice item value of at most 64 characters in length.</li> 
+			<li>This version now supports the values up to 100 characters.</li>
+         </ul>
+      </li>	  
+   </ul>
+</div>
+<div>
 <h2><a name="Prereqs" id="Prereqs">Prerequisites</a></h2>
 <p>For Salesforce Connector versions 5.6.3, 5.6.4, 5.6.5, 5.6.6 and 5.7.0:</p>
 <ul>
@@ -58,21 +87,7 @@ ul ul ul { list-style-type: square;}
    <li>However for the configurations where support for multiple Salesforce organizations is needed, then version 5.5.8 IF001 or above Content Services GraphQL API is required.</li>
 </ul>
 <p>
-<h2><a name="FixList" id="FixList">Fix list (APARs)</a></h2>
-<p>The following table lists the product fixes for this release.</p>
-   
-  
-<table width="100%" border="1" cellspacing="0" cellpadding="4" bordercolor="#003366">
-  <tr>
-    <th><div align="center">APAR #</div></th>
-    <th><div align="center">Description</div></th>
-  </tr>
-  <tr>
-    <td>PJ46986</td>
-    <td>SOQL statement cannot query more than 55 different parent types</td>
-  </tr>
-</table>
-  
+
 
 
 <h2><a name="Notices" id="Notices">Notices </a></h2>
